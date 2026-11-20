@@ -1,0 +1,420 @@
+{
+ "arms": {
+  "plain": {
+   "file": "parts/arm_plain.png",
+   "size": [
+    6,
+    6
+   ],
+   "src_box": [
+    27,
+    264,
+    172,
+    405
+   ]
+  },
+  "shock_baton": {
+   "file": "parts/arm_shock_baton.png",
+   "size": [
+    6,
+    6
+   ],
+   "src_box": [
+    178,
+    264,
+    336,
+    422
+   ]
+  },
+  "power_fist": {
+   "file": "parts/arm_power_fist.png",
+   "size": [
+    6,
+    6
+   ],
+   "src_box": [
+    330,
+    264,
+    471,
+    415
+   ]
+  },
+  "hf_blade": {
+   "file": "parts/arm_hf_blade.png",
+   "size": [
+    8,
+    7
+   ],
+   "src_box": [
+    479,
+    264,
+    671,
+    437
+   ]
+  },
+  "hf_blade_orange": {
+   "file": "parts/arm_hf_blade_orange.png",
+   "size": [
+    8,
+    6
+   ],
+   "src_box": [
+    633,
+    264,
+    861,
+    452
+   ]
+  },
+  "emp_cannon": {
+   "file": "parts/arm_emp_cannon.png",
+   "size": [
+    6,
+    6
+   ],
+   "src_box": [
+    784,
+    264,
+    935,
+    411
+   ]
+  },
+  "plasma_rifle": {
+   "file": "parts/arm_plasma_rifle.png",
+   "size": [
+    7,
+    6
+   ],
+   "src_box": [
+    935,
+    264,
+    1107,
+    421
+   ]
+  },
+  "data_spike": {
+   "file": "parts/arm_data_spike.png",
+   "size": [
+    6,
+    6
+   ],
+   "src_box": [
+    1091,
+    264,
+    1261,
+    435
+   ]
+  }
+ },
+ "legs": {
+  "biped": {
+   "file": "parts/legs_biped.png",
+   "size": [
+    6,
+    6
+   ]
+  },
+  "treads": {
+   "file": "parts/legs_treads.png",
+   "size": [
+    9,
+    5
+   ]
+  },
+  "hover": {
+   "file": "parts/legs_hover.png",
+   "size": [
+    5,
+    6
+   ]
+  },
+  "reverse_joint": {
+   "file": "parts/legs_reverse_joint.png",
+   "size": [
+    7,
+    7
+   ]
+  },
+  "spider": {
+   "file": "parts/legs_spider.png",
+   "size": [
+    10,
+    6
+   ]
+  },
+  "boss_stomper": {
+   "file": "parts/legs_boss_stomper.png",
+   "size": [
+    9,
+    8
+   ]
+  }
+ },
+ "chests": {
+  "security": {
+   "file": "parts/chest_security.png",
+   "size": [
+    5,
+    5
+   ]
+  },
+  "enforcer": {
+   "file": "parts/chest_enforcer.png",
+   "size": [
+    5,
+    5
+   ]
+  },
+  "drone": {
+   "file": "parts/chest_drone.png",
+   "size": [
+    5,
+    5
+   ]
+  },
+  "hacker": {
+   "file": "parts/chest_hacker.png",
+   "size": [
+    4,
+    5
+   ]
+  },
+  "boss": {
+   "file": "parts/chest_boss.png",
+   "size": [
+    6,
+    6
+   ]
+  },
+  "worker": {
+   "file": "parts/chest_worker.png",
+   "size": [
+    4,
+    5
+   ]
+  }
+ },
+ "heads": {
+  "security_visor": {
+   "file": "parts/head_security_visor.png",
+   "size": [
+    5,
+    5
+   ]
+  },
+  "enforcer_helm": {
+   "file": "parts/head_enforcer_helm.png",
+   "size": [
+    4,
+    4
+   ]
+  },
+  "drone_eye": {
+   "file": "parts/head_drone_eye.png",
+   "size": [
+    4,
+    4
+   ]
+  },
+  "hacker_optic": {
+   "file": "parts/head_hacker_optic.png",
+   "size": [
+    5,
+    5
+   ]
+  },
+  "boss_horned": {
+   "file": "parts/head_boss_horned.png",
+   "size": [
+    5,
+    5
+   ]
+  },
+  "worker": {
+   "file": "parts/head_worker.png",
+   "size": [
+    5,
+    4
+   ]
+  }
+ },
+ "props": {
+  "cargo_pod": {
+   "file": "parts/prop_cargo_pod.png",
+   "size": [
+    12,
+    12
+   ]
+  },
+  "heat_sink": {
+   "file": "parts/prop_heat_sink.png",
+   "size": [
+    12,
+    11
+   ]
+  },
+  "scrap_arm": {
+   "file": "parts/prop_scrap_arm.png",
+   "size": [
+    10,
+    10
+   ]
+  },
+  "pipe_burst": {
+   "file": "parts/prop_pipe_burst.png",
+   "size": [
+    12,
+    9
+   ]
+  },
+  "flame": {
+   "file": "parts/prop_flame.png",
+   "size": [
+    9,
+    12
+   ]
+  }
+ },
+ "tiles": {
+  "floor": {
+   "file": "tiles/tile_floor.png",
+   "src_cell": [
+    18,
+    15,
+    318,
+    344
+   ]
+  },
+  "wall_neon": {
+   "file": "tiles/tile_wall_neon.png",
+   "src_cell": [
+    332,
+    15,
+    633,
+    344
+   ]
+  },
+  "water": {
+   "file": "tiles/tile_water.png",
+   "src_cell": [
+    648,
+    15,
+    947,
+    344
+   ]
+  },
+  "ice": {
+   "file": "tiles/tile_ice.png",
+   "src_cell": [
+    962,
+    15,
+    1261,
+    344
+   ]
+  },
+  "scorch": {
+   "file": "tiles/tile_scorch.png",
+   "src_cell": [
+    18,
+    359,
+    318,
+    695
+   ]
+  },
+  "pipe_burst": {
+   "file": "tiles/tile_pipe_burst.png",
+   "src_cell": [
+    332,
+    359,
+    633,
+    695
+   ]
+  },
+  "window_iso": {
+   "file": "tiles/tile_window_iso.png",
+   "src_cell": [
+    648,
+    359,
+    947,
+    695
+   ]
+  },
+  "electrified": {
+   "file": "tiles/tile_electrified.png",
+   "src_cell": [
+    962,
+    359,
+    1261,
+    695
+   ]
+  },
+  "window": {
+   "file": "tiles/tile_window.png",
+   "src_x": 20,
+   "src_y": [
+    191,
+    507
+   ]
+  },
+  "window_cracked": {
+   "file": "tiles/tile_window_cracked.png",
+   "src_x": 334,
+   "src_y": [
+    191,
+    507
+   ]
+  },
+  "wall": {
+   "file": "tiles/tile_wall.png",
+   "src_x": 648,
+   "src_y": [
+    191,
+    507
+   ]
+  },
+  "vent": {
+   "file": "tiles/tile_vent.png",
+   "src_x": 964,
+   "src_y": [
+    191,
+    507
+   ]
+  }
+ },
+ "lineup": {
+  "lineup_0": {
+   "file": "parts/lineup_0.png",
+   "size": [
+    16,
+    22
+   ]
+  },
+  "lineup_1": {
+   "file": "parts/lineup_1.png",
+   "size": [
+    20,
+    21
+   ]
+  },
+  "lineup_2": {
+   "file": "parts/lineup_2.png",
+   "size": [
+    17,
+    22
+   ]
+  },
+  "lineup_3": {
+   "file": "parts/lineup_3.png",
+   "size": [
+    17,
+    22
+   ]
+  },
+  "lineup_4": {
+   "file": "parts/lineup_4.png",
+   "size": [
+    20,
+    16
+   ]
+  }
+ }
+}
